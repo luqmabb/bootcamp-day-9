@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.bordered{
+    border: 1px solid black;
+}
+
+nav{
+    background-color: rgb(244,243,243);
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-right: 20px;
+}
+
+li a{
+    color: rgb(17,23,39);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+img{
+    width: 35px;
+    height: 25px;
+}
+
+.li1{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+.left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-left: -9px;
+    margin-right: 500px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right div{
+    background-color: rgb(17,23,39);
+    width: 123px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+.right div a{
+    text-decoration: none;
+    color: rgb(240,240,240);
+    line-height: 33px;
+    margin-left: 20px;
+}
+
+nav .left ul li a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* navbar end */
+
+.judul{
+    text-align: center;
+    margin-top: 50px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body{
+    /* width: 100%; */
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+#noavailable {
+    display: none;
+    /* color: red; */
+}
+
+.wrap-noavailable {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    box-shadow: 5px 5px 20px darkgray;
+    padding: 15px;
+    width: 330px;
+    margin: 10px;
+}
+
+.img{
+    /* width: 330px; */
+    height: 180px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.h4{
+    text-align: end;
+    margin-top: 25px;
+}
+
+.star{
+    display: flex;
+    justify-content: end;
+}
+
+.wrap-star{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.wrap-star button {
+    width: 60px;
+    height: 25px;
+    background-color: rgb(17,23,39);
+    border: 0px;
+    border-radius: 2px;
+    color: whitesmoke;
+    margin: 15px;
+}

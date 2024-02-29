@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Project</title>
+    <link rel="stylesheet" href="./assets/css/styleadd.css">
+    <style>
+        .bordered {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="left">
+            <img src="./assets/photo/logo.png" alt="">
+            <ul>
+                <li class="li1">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="li2">
+                    <a href="./addmyproject.html">My Project</a>
+                </li>
+                <li class="li2">
+                    <a href="./testimonials.html">Testimonials</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <div>
+                <a href="../day-1/index.html" target="_blank">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <div class=" main">
+        <h2>ADD MY PROJECT</h2>
+
+        <div class="isi">
+            <form action="" onsubmit="getData(event)">
+                <div>
+                    <label for="projectname">Project Name</label><br>
+                    <input class="input-name-project" type="text" id="projectname">
+                </div>
+                <div style="display: flex; margin-bottom: 17px;">
+                    <div>
+                        <label for="startDate">Start Date:</label><br>
+                        <input class="start-date" type="date" id="startDate" name="startDate">
+                    </div>
+                    <div>
+                        <label style="margin-left: 12px;" for="endDate">End Date:</label><br>
+                        <input class="end-date" type="date" id="endDate" name="endDate">
+                    </div>
+                </div>
+                <div>
+                    <label for="description">Description</label><br>
+                    <textarea
+                        style="margin-bottom: 13px; resize: none; border: 0px; border-radius: 5px; box-shadow: 5px 5px 20px darkgray;"
+                        name="" id="description" cols="52" rows="9"></textarea>
+                </div>
+                <div style="margin-top: 10px; margin-bottom: 10px;">
+                    <div style="margin-bottom: 10px;">
+                        <label for="">Technologies</label><br>
+                    </div>
+                    <div class="checkbox" style="display: flex; flex-wrap: wrap;">
+                        <div>
+                            <input id="nodeJs" type="checkbox">
+                            <label for="">Node Js</label>
+                        </div>
+                        <div>
+                            <input id="vueJs" type="checkbox">
+                            <label for="">Vue Js</label>
+                        </div>
+                        <div>
+                            <input id="reactJs" type="checkbox">
+                            <label for="">React Js</label>
+                        </div>
+                        <div>
+                            <input id="php" type="checkbox">
+                            <label for="">PHP</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 40px;">
+                    <label for="">Upload Image</label><br>
+                    <div class="file">
+                        <input type="file">
+                    </div>
+                </div>
+                <div>
+                    <button class="submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="" style="padding-top: 30px; height: 100%; width: 100%; background-color: rgb(248, 248, 248);">
+        <h1
+            style="margin-bottom: 50px; margin-left: 43%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            MY PROJECT</h1>
+        <div id="card"
+            style="display: flex; justify-content: space-evenly; flex-wrap: wrap; width: 1100px; margin-left: 10%;">
+
+            
+
+        </div>
+        <script src="https://kit.fontawesome.com/c5ec23200a.js" crossorigin="anonymous"></script>
+        <script src="assets/js/scriptday4.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220,224,227);
+}
+
+.bordered{
+    border: 1px solid black;
+}
+
+nav{
+    background-color: rgb(244,243,243);
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-right: 20px;
+}
+
+li a{
+    color: rgb(17,23,39);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+img{
+    width: 35px;
+    height: 25px;
+}
+
+.li1{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+.left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-left: -9px;
+    margin-right: 500px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right div{
+    background-color: rgb(17,23,39);
+    width: 123px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+.right div a{
+    text-decoration: none;
+    color: rgb(240,240,240);
+    line-height: 33px;
+    margin-left: 20px;
+}
+
+nav .left ul li a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.main{
+    width: 800px;
+    margin: 30px 10px;
+    margin-left: 20%;
+}
+
+.main h2{
+    margin-left: 37%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.isi{
+    margin-left: 200px;
+}
+
+.isi label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-name-project{
+    height: 35px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 0px ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px darkgray;
+}
+
+.start-date, .end-date{
+    height: 35px;
+    width: 194px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px darkgray;
+}
+
+.end-date{
+    margin-left: 13px;
+}
+
+.checkbox{
+    width: 400px;
+}
+
+.checkbox div{
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.file{
+    /* padding-top: 10px; */
+    line-height: 45px;
+    width: 400px; 
+    height: 45px;
+    border: 0px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px darkgray;
+}
+
+.submit{
+    margin-left: 290px;
+    background-color: rgb(17,23,39);
+    border-radius: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px;
+    height: 30px;  
+    width: 110px;  
+}
+
+.card{
+    width: 320px;
+    height: 100%;
+    background-color: white;
+    margin-bottom: 33px;
+    border-radius: 5px;
+    padding: 13px;
+    box-shadow: 5px 5px 20px darkgray;
+}
+
+.card img{
+    width: 320px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.wrap-card-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap-card-button button {
+    background-color: rgb(17,23,39);
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px;
+    height: 25px;  
+    width: 140px;
+    line-height:20px ;
+}
+
+.name-project-card{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.durasi-card{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: gray;
+}
+
+.description-card{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.tech-stack-card{
+    margin-top: -3px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.tech-stack-card i{
+    margin-right: 15px;
+    font-size: 25px;
+    margin-top: -10px;
+}
